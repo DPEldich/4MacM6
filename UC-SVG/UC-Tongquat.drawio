@@ -1,0 +1,353 @@
+<mxfile host="app.diagrams.net" pages="11">
+  <diagram name="UC-TQ Sơ đồ use case tổng quát" id="bKLwbYLu_vt3kgtqCYoA">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="2704" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-ACTOR Sơ đồ tác nhân của hệ thống" id="NMOb1CsEOPT6xXwkbM2E">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="560" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ tác nhân của hệ thống" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="NDHT" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Người dùng hệ thống" vertex="1">
+          <mxGeometry height="90" width="56" x="150" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="460" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ADMIN" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Quản trị viên" vertex="1">
+          <mxGeometry height="90" width="56" x="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=block;endFill=0;" target="NDHT" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ADMIN" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=block;endFill=0;" target="NV" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="explain" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=16;strokeColor=none;fillColor=none;" value="Đầu tam giác rỗng hướng về actor cha. Quan hệ được rút gọn theo bộ quyền mẫu hiện tại." vertex="1">
+          <mxGeometry height="90" width="840" x="80" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-XT Sơ đồ use case xác thực" id="fPANFt8rim_YW4xJDCA6">
+    <mxGraphModel dx="1021" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="PLSP" id="0kkakGT6SMvJTUxbMKig">
+    <mxGraphModel dx="843" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="976" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Phân loại sản phẩm" vertex="1">
+          <mxGeometry height="395" width="410" x="480" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="370" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="6let-uo-UskQoFUrbf9H-2" edge="1" parent="1" source="UC03" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;startArrow=open;startFill=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="6let-uo-UskQoFUrbf9H-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UC03" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="Quản lý Phân loại sản phẩm" vertex="1">
+          <mxGeometry height="74" width="120" x="520" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=open;endFill=0;" target="UC03" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="928" as="geometry" />
+        </mxCell>
+        <mxCell id="6let-uo-UskQoFUrbf9H-1" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="Thêm / Sửa / Xóa (Vô hiệu)/ Tìm kiếm Phân loại sản phẩm" vertex="1">
+          <mxGeometry height="80" width="200" x="660" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Bản sao của UC-DM Sơ đồ use case danh mục và thông tin đối tác" id="ZCajI9-ahpewUJQCdDdp">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="976" math="0" shadow="0">
+      <root>
+        <mxCell id="wbzp-P5d_iU942jIhY37-0" />
+        <mxCell id="wbzp-P5d_iU942jIhY37-1" parent="wbzp-P5d_iU942jIhY37-0" />
+        <mxCell id="wbzp-P5d_iU942jIhY37-2" parent="wbzp-P5d_iU942jIhY37-1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Nhà cung cấp" vertex="1">
+          <mxGeometry height="415" width="430" x="480" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RRw8N7-vg19dFidKx9Op-7" edge="1" parent="wbzp-P5d_iU942jIhY37-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="RRw8N7-vg19dFidKx9Op-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="287" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbzp-P5d_iU942jIhY37-3" parent="wbzp-P5d_iU942jIhY37-1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="230" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="wbzp-P5d_iU942jIhY37-10" parent="wbzp-P5d_iU942jIhY37-1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="Quản lý nhà cung cấp" vertex="1">
+          <mxGeometry height="74" width="125" x="577.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="wbzp-P5d_iU942jIhY37-11" edge="1" parent="wbzp-P5d_iU942jIhY37-1" source="wbzp-P5d_iU942jIhY37-3" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="wbzp-P5d_iU942jIhY37-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wbzp-P5d_iU942jIhY37-18" parent="wbzp-P5d_iU942jIhY37-1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="928" as="geometry" />
+        </mxCell>
+        <mxCell id="RRw8N7-vg19dFidKx9Op-1" parent="wbzp-P5d_iU942jIhY37-1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="Thêm/ Sửa/ Xóa/ Tìm kiếm NCC" vertex="1">
+          <mxGeometry height="80" width="192.5" x="700" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RRw8N7-vg19dFidKx9Op-5" edge="1" parent="wbzp-P5d_iU942jIhY37-1" source="wbzp-P5d_iU942jIhY37-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.319;entryY=0.952;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=gap;startArrow=open;startFill=0;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;" target="RRw8N7-vg19dFidKx9Op-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RRw8N7-vg19dFidKx9Op-6" parent="wbzp-P5d_iU942jIhY37-1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="Quản lý sản phẩm NCC" vertex="1">
+          <mxGeometry height="74" width="150" x="565" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-NH Sơ đồ use case tồn kho và nhập hàng" id="QU0blktaimhCJ5ypjINq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case tồn kho và nhập hàng" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="610" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="UC10" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC10 Theo dõi tồn kho" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC11" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC11 Lập phiếu nhập hàng" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC12" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC12 Điều chỉnh phiếu nhập chờ" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC13" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC13 Hoàn thành nhập hàng" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC14" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC14 Tra cứu phiếu nhập" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="712" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-BH Sơ đồ use case bán hàng và thu chi" id="uvzRlUX6khgtW7oWRMW4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="544" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case bán hàng và thu chi" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="394" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="197" as="geometry" />
+        </mxCell>
+        <mxCell id="UC15" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC15 Lập đơn bán hàng" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC16" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC16 Tra cứu đơn bán hàng" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC20" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC20 Theo dõi thu chi" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="371" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="496" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-BHanh Sơ đồ use case bảo hành" id="OEv2RTy4gnMUS2ncKvVE">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case bảo hành" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="320" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UC17" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC17 Tiếp nhận bảo hành" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC18" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC18 Theo dõi và xử lý bảo hành" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="422" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-KM Sơ đồ use case khuyến mãi" id="n9HgMX2pQdjTPZSHnpbc">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case khuyến mãi" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="320" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UC19" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC19 Quản lý chương trình khuyến mãi" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="422" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-QT Sơ đồ use case quản trị tài khoản và quyền" id="6otnsyuuw8rTj3yLr1zQ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case quản trị tài khoản và quyền" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="320" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ADMIN" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Quản trị viên" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UC21" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC21 Quản lý tài khoản" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="ADMIN" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UC22" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC22 Quản lý vai trò và phân quyền" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="263" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ADMIN" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Actor quản trị là trách nhiệm nghiệp vụ, quyền cụ thể phụ thuộc cấu hình thực tế." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="422" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="UC-TK Sơ đồ use case thống kê kinh doanh" id="k2QrBRRpPRuFqv7xVvLz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1000" pageHeight="470" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=0;align=center;fontFamily=Times New Roman;fontSize=22;fontStyle=1;strokeColor=none;fillColor=none;" value="Sơ đồ use case thống kê kinh doanh" vertex="1">
+          <mxGeometry height="44" width="980" x="10" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;rounded=0;verticalAlign=top;align=center;spacingTop=12;fontStyle=1;container=0;" value="Hệ thống quản lý cửa hàng laptop" vertex="1">
+          <mxGeometry height="320" width="580" x="350" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="NV" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;align=center;spacingTop=6;" value="Nhân viên bán hàng" vertex="1">
+          <mxGeometry height="90" width="56" x="115" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UC23" parent="1" style="html=0;whiteSpace=wrap;fontFamily=Times New Roman;fontSize=16;fontColor=#000000;strokeColor=#000000;strokeWidth=1.3;fillColor=#FFFFFF;ellipse;perimeter=ellipsePerimeter;align=center;verticalAlign=middle;spacing=9;" value="UC23 Thống kê kinh doanh" vertex="1">
+          <mxGeometry height="74" width="430" x="425" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="NV" style="edgeStyle=none;html=0;rounded=0;strokeColor=#000000;strokeWidth=1.2;startArrow=none;endArrow=none;" target="UC23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" parent="1" style="text;html=0;whiteSpace=wrap;align=center;fontFamily=Times New Roman;fontSize=14;strokeColor=none;fillColor=none;" value="Liên kết thể hiện khả năng tham gia khi có quyền. ADMIN kế thừa NV theo bộ quyền mẫu." vertex="1">
+          <mxGeometry height="34" width="940" x="30" y="422" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
